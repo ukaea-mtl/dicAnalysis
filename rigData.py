@@ -2,6 +2,11 @@
 # Module for display and analysis of data from the Phoenix rigs
 #####
 
+import numpy as np
+import matplotlib
+import matplotlib.pyplot as plt
+import matplotlib.cm as cmx
+
 class rigData:
 
     def __init__(self, dataFile):
